@@ -1,0 +1,20 @@
+<p><big>Riemann Zeta Function</big></p>
+<p>Choose the velocity (ms):</p>
+<input type="number" id="velocity">
+<p>Choose power:</p>
+<input type="number" id="pow">
+<p>Choose amount of iterations:</p>
+<input type="number" id="iterations">
+<button id="start" onclick="zetaSum()">Start</button>
+
+<p id="zeta"></p>
+<p id="counter"></p>
+
+<svg id="progress" width="500" height="20">
+    <rect id="progressrect" width="0" height="20" style="fill:rgba(255, 0, 0, 0.763)" />
+    <rect  width="165" height="20" style="fill:rgba(2, 255, 40, 0.763)" />
+</svg>
+<p><small>Bar length: 1.65</small></p>
+
+<script src="main.js"></script>
+
